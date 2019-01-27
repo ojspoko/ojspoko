@@ -1,0 +1,42 @@
+.content {
+  max-midth: 500px;
+  margin: auto;
+  padding: 10px;
+  justify-content: center;
+}
+
+h1 {
+  color: indigo;
+}
+p {
+  color: MediumBlue ;
+}
+body {
+  background-color: LightSteelBlue ;
+}
+
+li:hover {
+  background-color: MediumSlateBlue ;
+}
+
+.link {
+  font-weight:bold;
+}
+
+.link:hover {
+  background-color:dodgerblue;
+}
+
+h1 {
+  color: MediumBlue ;
+  border-style: solid;
+  border-width: 1px;
+  border-color: indigo;
+
+}
+
+img {
+  border-style: solid;
+  border-color: purple;
+  border-width: 2px;
+}
