@@ -12,12 +12,17 @@
     border: 4rem;
     background-color: rgb(67, 158, 186);
     padding: 1rem;
+    color: white;
   }
+  .subhead {
+    font-style:italic;
+  }
+
   h1, h3 {
     text-transform: uppercase;
   }
   .titles {
-    font-style: italic;
+    font-style: uppercase;
   }
   nav {
     width: 100%;
@@ -25,10 +30,40 @@
     background-color: rgb(228, 228, 228);
     padding: 1rem;
   }
-  article {
-    text-transform: uppercase;
+
+  .navlink {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
   }
 
+  a {
+    color: rgb(67, 158, 186);
+    text-decoration: none;
+  }
+
+  .emphasize {
+    color: rgb(67, 158, 186);
+  }
+  section {
+    float:left;
+    width: 60%;
+  }
+  aside {
+    float: right;
+    width: 30%;
+    display: flex;
+    flex-wrap:wrap;
+  }
+footer {
+  clear: both;
+  width: 100%;
+  border: 4rem;
+  background-color: rgb(101,98,98);
+  padding: 1rem;
+  color: white;
+  text-align: center; 
+}
   </style>
   </head>
 
@@ -37,15 +72,15 @@
     <h1>Kitties To Go!</h1>
     <p class="subhead">Seattle's premiere drive-thru cat rentals</p>
     </header>
-    <nav><a href="">About</a> / <a href="">Rates</a> / <a href="">Liability Release</a> / <a href="">Kitty Profiles</a> / <a href="">Book a Cat</a></nav>
+    <nav><a href class="navlink"="">About</a> / <a href class="navlink"="">Rates</a> / <a href class="navlink"="">Liability Release</a> / <a href class="navlink"="">Kitty Profiles</a> / <a href class="navlink"="">Book a Cat</a></nav>
     <section>
-    <h2>Cat ipsum dolor sit amet, find something else more interesting, so
+    <h2 class="emphasize">Cat ipsum dolor sit amet, find something else more interesting, so
 catty ipsum mesmerizing birds sleep on my human’s head</h2>
     <p>Cat ipsum dolor sit amet, find something else more interesting, so catty ipsum mesmerizing birds
 sleep on my human’s head. Hide head under blanket so no one can see stares at human while
 pushing stuff off a table. Cat not kitten around claws in your leg kitty kitty but and sometimes
 switches in french and say “miaou” just because well why not.</p>
-    <blockquote>Please stop looking at your phone an pet me. Lounge in the
+    <blockquote class="emphasize">Please stop looking at your phone an pet me. Lounge in the
 doorway eat and then sleep on your face meowwww meowwww
 – Jeremy
     </blockquote>
