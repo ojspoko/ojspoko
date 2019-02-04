@@ -7,21 +7,32 @@
   * {
     font-family: Arial, serif;
   }
-  * {
-    box-sizing: border-box;
-  }
-  .box {
-  float: left;
-  width: 50%
-  padding: 50px;
-}
+
   header {
     width: 100%;
-    background-image: "banner-image.jpg";
+    background-color:
     border: 4rem;
     padding: 1rem;
     color: white;
   }
+
+  #bannerimage{
+  position: relative;
+  width: 100%;
+  background-image: #000000 url("banner-image.jpg") 100% 100% no-repeat;
+  clear: both;
+  background-position: center;
+  z-index: -1;
+  display: block;
+}
+.bannertext{
+  text-align: left;
+  position: absolute;
+  top: 10%;
+  right: 50%;
+  color: white;
+  z-index: 1;
+}
   .subhead {
     font-style:italic;
   }
@@ -29,9 +40,7 @@
   h1, h3 {
     text-transform: uppercase;
   }
-  .titles {
-    font-style: uppercase;
-  }
+
   nav {
     width: 100%;
     border: 3rem;
@@ -50,7 +59,6 @@
   }
   aside {
     float: right;
-    clear:right;
     width: 30%;
   }
 
@@ -65,24 +73,17 @@
 
 section {
     float:left;
-    clear:left;
     width: 56%;
-    clear:both;
   }
 
 footer {
   clear: both;
   width: 100%;
   border: 4rem;
-  background-image: url: "footer-image.jpg";
   background-color: rgb(101,98,98);
   padding: 1rem;
   color: white;
   text-align: center;
-}
-
-.clearfix {
-  overflow: auto;
 }
 
   </style>
@@ -90,10 +91,13 @@ footer {
 
   <body>
     <header>
-    <h1>Kitties To Go!</h1>
-    <p class="subhead">Seattle's premiere drive-thru cat rentals</p>
+    <div class="bannertext">
+      <h1>Kitties To Go!</h1>
+      <p class="subhead">Seattle's premiere drive-thru cat rentals</p>
+    </div>
+    <img id="bannerimage" src="banner-image.jpg">
     </header>
-    <nav><a href class="navlink"="">About</a> / <a href class="navlink"="">Rates</a> / <a href class="navlink"="">Liability Release</a> / <a href class="navlink"="">Kitty Profiles</a> / <a href class="navlink"="">Book a Cat</a></nav>
+    <nav><a href="" class="navlink">About</a> / <a href="" class="navlink">Rates</a> / <a href="" class="navlink">Liability Release</a> / <a href="kitties-to-go-page2.html" class="navlink">Kitty Profiles</a> / <a href="" class="navlink">Book a Cat</a></nav>
     <section class="box">
     <h2 class="emphasize">Cat ipsum dolor sit amet, find something else more interesting, so
 catty ipsum mesmerizing birds sleep on my human’s head</h2>
@@ -106,7 +110,7 @@ doorway eat and then sleep on your face meowwww meowwww
 – Jeremy
     </blockquote>
     </section>
-    <section class="box">
+    <section>
       <h3>The Kitties to Go Story</h3>
       <p>Fall asleep on the washing machine snuggles up to shoulders or knees and purrs you to sleep.
 Eat prawns daintily with a claw then lick paws clean wash down prawns with a lap of carnation milk
