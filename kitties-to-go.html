@@ -6,6 +6,8 @@
   <style>
   * {
     font-family: Arial, serif;
+    margin:0;
+    padding:0;
   }
 
   header {
@@ -28,10 +30,7 @@
     background-color: rgb(228, 228, 228);
     padding: 1rem;
   }
-  section {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+
   .navlink {
     color: black;
     font-weight: bold;
@@ -40,7 +39,12 @@
   aside {
     float: right;
     width: 30%;
-    display: inline;
+    padding: 0;
+  }
+  article {
+    width:100%;
+    padding: 0;
+    clear: both;
   }
   a {
     color: rgb(67, 158, 186);
@@ -49,11 +53,13 @@
   .emphasize {
     color: rgb(67, 158, 186);
   }
+
 section {
     float:left;
     width: 52%;
-    display: inline;
+    margin-left:10%;
   }
+
 footer {
   clear: both;
   width: 100%;
@@ -72,7 +78,7 @@ footer {
       <p class="subhead">Seattle's premiere drive-thru cat rentals</p>
     </header>
     <nav><a href="" class="navlink">About</a> / <a href="" class="navlink">Rates</a> / <a href="" class="navlink">Liability Release</a> / <a href="kitties-to-go-page2.html" class="navlink">Kitty Profiles</a> / <a href="" class="navlink">Book a Cat</a></nav>
-    <section class="box">
+  <section>
     <h2 class="emphasize">Cat ipsum dolor sit amet, find something else more interesting, so
 catty ipsum mesmerizing birds sleep on my human’s head</h2>
     <p>Cat ipsum dolor sit amet, find something else more interesting, so catty ipsum mesmerizing birds
@@ -83,8 +89,8 @@ switches in french and say “miaou” just because well why not.</p>
 doorway eat and then sleep on your face meowwww meowwww
 – Jeremy
     </blockquote>
-    </section>
-    <section>
+
+    <article>
       <h3>The Kitties to Go Story</h3>
       <p>Fall asleep on the washing machine snuggles up to shoulders or knees and purrs you to sleep.
 Eat prawns daintily with a claw then lick paws clean wash down prawns with a lap of carnation milk
@@ -95,24 +101,26 @@ meant to do that now i shall wash myself intently cough and swat at dog.</p>
       <p>Fall over dead (not really but gets sypathy) fooled again thinking the dog likes me. Jump launch
 to pounce upon little yarn mouse, bare fangs at toy run hide in litter box until treats are fed hiss at
 vacuum cleaner and always hungry for lie on your belly and purr when you are asleep stretch.</p>
-    </section>
+    </article>
+  </section>
     <aside>
-      <section>
+      <article>
         <h3>Cats in the news</h3>
         <p>Chew iPad power cord why must they do that, grab pompmom in mouth and put in water dish.</p>
         <a href="">Find out more >></a>
         <p>Chew iPad power cord why must they do that, grab pompmom in mouth and put in water dish.</p>
         <a href="">Find out more >></a>
-      </section>
-      <section>
+      </article>
+      <article>
         <h3>Cat of the week</h3>
         <figure>
         <p><img src="sidebar-cat.jpg" alt="picture of cute cat"></p>
         <figcaption>Stare at imaginary bug love blinks and purr purr purr purr.</figcaption>
         </figure>
         <a href="">Book Now >></a>
-      </section>
+      </article>
     </aside>
+
     <footer>
       <p><img src="cat-logo.png" alt="cat logo"></p>
       <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex
