@@ -1,53 +1,54 @@
 h1 {
-  color: indigo;
+  color: white;
+  font-family: 'Major Mono Display', monospace;
+  text-align: center;
 }
 
-p {
-  color: MediumBlue ;
-}
 body {
-  background-color: LightSteelBlue ;
+  font-family: 'Roboto', sans-serif;
 }
 
-li:hover {
-  background-color: MediumSlateBlue ;
+body {
+  background-color: #6D67B5;
+  color: #202020;
 }
 
 .link {
   font-weight:bold;
+  color: white;
+  font-size:150%;
 }
 
 .link:hover {
-  background-color:dodgerblue;
+  background-color:MediumSlateBlue;
 }
 
-h1 {
-  color: purple ;
-  border-style: solid;
-  background-color: dodgerblue;
+header {
+  width: 100%;
+  border: 2rem;
+  padding: 1rem;
+  background-color: #330066;
   border-width: 1px;
-  border-color: indigo;
+  border-color: #6D67B5;
+  text-align: center;
+}
 
+.container {
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 img {
   border-style: solid;
-  border-color: purple;
+  border-color: white;
   border-width: 2px;
+  margin-top:10px;
+  margin-bottom: 10px;
 }
 
-  h1 {
-    text-align: center;
-  }
-
-#headshot {
-    text-align: center;
-  }
-
-#headshot {
-  cursor:not-allowed;
-}
-
-body {
-  font-family: "Georgia", Georgia, serif
+footer {
+  text-align: center;
 }
