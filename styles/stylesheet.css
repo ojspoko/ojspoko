@@ -13,16 +13,6 @@ body {
   color: #202020;
 }
 
-.link {
-  font-weight:bold;
-  color: white;
-  font-size:150%;
-}
-
-.link:hover {
-  background-color:MediumSlateBlue;
-}
-
 header {
   width: 100%;
   border: 2rem;
@@ -49,6 +39,39 @@ img {
   margin-bottom: 10px;
 }
 
+.icon {
+  color:white;
+}
+
 footer {
   text-align: center;
+}
+
+p:nth-child(2) {
+  background-color: dodgerblue;
+}
+
+li:nth-child(even) {
+  font-weight:700;
+  font-style:italic;
+}
+
+a {
+  text-decoration: none;
+  font-weight:bold;
+  color: white;
+  font-size:150%;
+}
+
+a:visited {
+  color: dodgerblue;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration: none;
+  color:dodgerblue;
+  background-color: mediumslateblue;
+  transition-property:all;
+  transition-duration:2s;
 }
