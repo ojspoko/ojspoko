@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Olivia's Portfolio: HTML&CSS Basics</title>
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display%7cMontserrat%7cRoboto:500" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+ </head>
+
+    <body>
+      <header>
+        <h1>Let me tell you about what brought me here.</h1>
+        <div class="container">
+        <img src="headshot.png" width="180" height="180" alt="Olivia's Headshot">
+          <nav>
+            <i class="fas fa-user-ninja icon"> <a href="index.html">Home</a></i>
+            <i class="fab fa-linkedin icon"> <a href="https://www.linkedin.com/in/oliviajspokoiny/">Connect with Me</a></i>
+            <i class="fab fa-github icon"> <a href="projects.html">My Projects</a></i>
+            <i class="fab fa-twitter icon"> <a href="https://twitter.com/ojspoko">Follow Me</a></i>
+          </nav>
+        <img src="https://cdn.pixabay.com/photo/2016/03/30/02/21/idea-1289876_1280.jpg" width="180" height="180" alt="Lightbulb">
+        </div>
+      </header>
+        <section>
+          <h2>My Story</h2>
+          <article>
+            <h3>I'm here because...</h3>
+              <p>I want to learn design things based on how I want them to look!</p>
+              <p>Right after college, I traveled for 6 months and tried my best to capture my stories and highlights through Wordpress. I was frustrated by my lack of design skills and freedom to customize pre-designed template. That's when I became interested in web development.</p>
+              <p>Then I landed a job in Software. After a few roles, I deliver and create technical training. I aspire to speak the same language as developers so I can train them. I'd also like to use these development skills to design a travel website like I've always wanted to!</p>
+          </article>
+          <article>
+            <h2>What's Next?</h2>
+              <p>Coming Soon! A new travel site and podcast by yours truly.
+              <p>My goal for my next project is to interview travel enthusiasts about their favorite experiences and build an interactive website around it.</p>
+          </article>
+        </section>
+
+        <section>
+        <h2>Seeking Travel Enthusiasts and Storytellers!</h2>
+        <p>Let's Chat! Fill out the Form and I'll get in touch.</p>
+
+        <form method="GET">
+          <label>Your name:
+            <input type="text" name="applicantName">
+          </label><br>
+
+          <label>What city do you live in?:
+            <input type="text" name="applicantCity">
+          </label><br>
+
+          <label>Your email:
+            <input type="email" name="applicantEmail">
+          </label><br>
+
+          <label>Your age range:
+            <select name="countries">
+              <option value="">Please select</option>
+              <option value="few">Under 18</option>
+              <option value="some">18 to 24</option>
+              <option value="many">25 to 40</option>
+              <option value="many">Over 40</option>
+            </select>
+          </label><br>
+
+          <label>How many countries have you visited?
+            <input type="number" name="countryCount">
+          </label><br>
+
+          <fieldset class="checkbox">
+            <legend>What travel-related topics interest you?</legend>
+            <label>
+            <input type="checkbox" name="topic" value="food">Food
+            <span class="checkmark"></span>
+            </label>
+            <label>
+            <input type="checkbox" name="topic" value="lodging">Lodging
+            <span class="checkmark"></span>
+            </label>
+            <label>
+            <input type="checkbox" name="topic" value="outdoors">Outdoors
+            <span class="checkmark"></span>
+            </label>
+            <label>
+            <input type="checkbox" name="species" value="history">History/Culture
+            <span class="checkmark"></span>
+            </label>
+            <label>
+            <input type="checkbox" name="topic" value="other">Other
+            <span class="checkmark"></span>
+            </label>
+          </fieldset><br>
+
+          <fieldset>
+            <legend>Are you interested in participating in a recorded conversation?</legend>
+            <label>
+              <input type="radio" name="recorded" value="yes">Yes
+            </label>
+            <label>
+              <input type="radio" name="recorded" value="no">No
+            </label>
+          </fieldset>
+
+          <label>Where is your favorite place you have been?
+            <textarea name="favoritePlace" rows="4" cols="50">Country, city, hotel, town...anywhere!</textarea>
+          </label><br>
+
+    </form>
+    </section>
+      <footer>
+        <p>Website created by Olivia for HTML/CSS Basics - Winter 2019.</p>
+      </footer>
+    </body>
+  </html>
